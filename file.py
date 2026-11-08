@@ -1,0 +1,5 @@
+f=open('text.txt','w+')
+f.write("hello im gautham\n nice to meet you")
+f.seek(0,0)
+print(f.read())
+f.close()
